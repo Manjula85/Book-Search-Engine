@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 // two library import statements
 import { ApolloProvider } from "@apollo/react-hooks";
 import ApolloClient from "apollo-boost";
+//react route link
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 const client = new ApolloClient({
   uri: "graphql",
