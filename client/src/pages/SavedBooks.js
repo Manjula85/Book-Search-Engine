@@ -8,6 +8,7 @@ import { removeBookId } from '../utils/localStorage';
 //queries link & Func
 import { useQuery, useMutation } from '@apollo/react-hooks';
 import { GET_ME } from '../utils/queries';
+import {REMOVE_BOOK} from '../utils/mutations';
 
 const SavedBooks = () => {
   //use useQuery hook to make query request
