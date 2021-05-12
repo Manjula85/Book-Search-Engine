@@ -1,7 +1,5 @@
 # Google-books-manjula
 
-# CHANGE ALL THESE!!!
-
 ## Purpose
 To refactor a book search engine built with a RESTful API to a GraphQL API with Apollo Server.
 
