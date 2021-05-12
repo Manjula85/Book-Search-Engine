@@ -3,52 +3,20 @@
 # CHANGE ALL THESE!!!
 
 ## Purpose
-To build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.
+To refactor a book search engine built with a RESTful API to a GraphQL API with Apollo Server.
 
 ## Built with
+
 * JavaScript
 * Node
-* CSS
-* Handlebars
-* HTML
+* MongoDB
+* Grapgql
+* React
+* Heroku
 
-## npm 
-* bcrypt
-* connect-session-sequelize
-* dotenv
-* express
-* express-handlebars
-* express-session
-* jest
-* mysql2
-* sequelize
-* nodemon
-
-### Login
-![](/images/login.png)
-
-### Sign-up
-
-![](/images/sign-up.png)
-
-### Homepage
-
-![](/images/homepage.png)
-
-### Dashboard
-
-![](/images/dashboard.png)
-
-### New Post
-
-![](/images/new-post.png)
-
-### Edit-Delete
-
-![](/images/edit-delete.png)
+### Langind page
+![](/images/landing_page.PNG)
 
 
 ## Relevant links
-URL: https://manjula85.github.io/CMS-blog-Manjula/
-
-Git hub link: https://github.com/Manjula85/CMS-blog-Manjula
+Heroku link: https://manjula85.github.io/CMS-blog-Manjula/
