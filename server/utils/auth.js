@@ -32,7 +32,14 @@ authMiddleware: function({ req }) {
 
   // return updated request object
   return req;
-}
+},
+
+  signToken: function ({ username, email, _id }) {
+    const payload = { username, email, _id };
+
+    return jwt.sign({ data: payload }, secret, { expiresIn: expiration });
+  }
+};
 
 // module.exports = {
 //   // function for our authenticated routes
@@ -60,10 +67,10 @@ authMiddleware: function({ req }) {
 
 //     // send to next endpoint
 //     next();
-//   },
+// //   },
 //   signToken: function ({ username, email, _id }) {
 //     const payload = { username, email, _id };
 
 //     return jwt.sign({ data: payload }, secret, { expiresIn: expiration });
 //   },
-};
+
